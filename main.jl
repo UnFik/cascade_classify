@@ -265,12 +265,3 @@ display(cascade_matrix)
 evaluate = confusion_matrix(truths, gpreds[:, 2])
 display(evaluate)
 true_correctness(evaluate)
-# display(length(preds))
-# display(length(gpreds[:, 2]))
-
-
-
-
-
-# tis = filter_correct_rows(df, winner_index, truths)
-# display(tis)
